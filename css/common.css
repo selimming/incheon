@@ -1,0 +1,38 @@
+header{
+    padding: 0 100px;
+}
+section{
+    padding: 200px 100px;
+}
+.section_1{
+    padding: 0;
+}
+
+@media screen and (max-width: 1290px) {
+
+    header{
+        padding: 0 50px;
+    }
+    section{
+        padding: 100px 50px;
+
+    }
+    .section_1{
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    header{
+        padding: 0 25px;
+    }
+    section{
+        padding: 70px 25px;
+
+    }
+    .section_1{
+        padding: 0;
+    }
+}
