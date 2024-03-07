@@ -272,7 +272,7 @@ video{
     
 }
 .sec3_context1>h2{
-    padding: 0 30px;
+    padding: 0 40px;
     text-align: center;
 }
 .single:nth-child(5) h2{
@@ -818,7 +818,11 @@ footer{
 #tab_1:checked~label:nth-child(1){
     color: #639B1B;
 }
-
+@media screen and (max-width: 1734px){
+    .sec3_context1>h2{
+        padding: 0 30px;
+    }
+}
 @media screen and (max-width: 1290px) {
     .gnb{
         width: 500px;
